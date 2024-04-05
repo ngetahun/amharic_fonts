@@ -67,5 +67,9 @@ cp -a "%{S:2}" AbyssinicaSIL-2.201/OFL.txt
 %dir %{_ttfontsdir}
 %{_ttfontsdir}/AbyssinicaSIL-2.201/web/[0-9A-Za-z\-]*.woff
 
+%files -n assets
+%defattr(-,root,root)
+%dir %{_ttfontsdir}
+%{_ttfontsdir}/assets/[0-9A-Za-z\-]*.ttf
 
 %changelog
