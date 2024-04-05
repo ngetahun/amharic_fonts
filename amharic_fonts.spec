@@ -8,7 +8,7 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
-Name:           amharic-fonts
+Name:           amharic_fonts
 Version:        0.1
 Release:        0
 Summary:        Amharic free font collection by Natnael Getahun
@@ -17,7 +17,7 @@ Group:          System/X11/Fonts
 URL:		amharic-fonts-1.0.tar.xz#defunct
 
 #DL-URL:	http://packages.debian.org/sid/ttf-aenigma
-Source:         %name.tar.xz
+Source:         %{name}-v%{version}.tar.xz
 BuildRequires:  fontpackages-devel
 BuildRequires:	dos2unix
 BuildRequires:  xz
